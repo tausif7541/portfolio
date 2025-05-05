@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tausif Iqbal | DevOps & Linux Engineer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #1f2937;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #1f2937;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+    .project {
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      background-color: #1f2937;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    a {
+      color: #2563eb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tausif Iqbal</h1>
+    <p>DevOps & Linux Engineer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m <strong>Tausif Iqbal</strong>, a passionate DevOps and Linux Engineer with hands-on experience in Kubernetes, Docker, Jenkins,
+      Linux Server Administration, Spring Boot, and Monitoring tools. I help businesses automate deployments, manage infrastructure,
+      and build scalable solutions using open-source technologies.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills & Tools</h2>
+    <ul>
+      <li>CI/CD: Jenkins, GitHub Actions</li>
+      <li>Containers: Docker, Docker Hub</li>
+      <li>Orchestration: Kubernetes, Helm</li>
+      <li>Monitoring: Prometheus, Grafana</li>
+      <li>Languages: Java (Spring Boot), Shell Scripting</li>
+      <li>Cloud & VMs: AWS EC2, VirtualBox</li>
+      <li>Version Control: Git</li>
+      <li>Operating Systems: Ubuntu, CentOS, Red Hat</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Inventory Management System (Java + Spring Boot)</h3>
+      <p>
+        Developed REST APIs using Spring Boot and MySQL. Dockerized the application for consistent deployment.
+        Deployed using Jenkins pipeline and Kubernetes.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Kubernetes Monitoring Stack</h3>
+      <p>
+        Set up Prometheus + Grafana with persistent volumes. Exposed dashboards via Ingress with NGINX Controller.
+        Created custom alerts for pod crash loops and CPU/memory spikes.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Multi-node Kubernetes Cluster Setup</h3>
+      <p>
+        Master node on AWS EC2; workers via VirtualBox connected with VPN. Installed and configured Calico for networking.
+        Deployed test apps with auto-scaling and custom Helm charts.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      📍 Bengaluru, India<br />
+      📱 +91-7541919540<br />
+      🔗 <a href="https://linkedin.com/in/tausif-iqbal-b842a3133" target="_blank">LinkedIn</a><br />
+      📧 iqbaltausif052@gmail.com
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Tausif Iqbal | DevOps & Linux Engineer</p>
+  </footer>
+</body>
+</html>
